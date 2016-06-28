@@ -1,0 +1,16 @@
+﻿@model ADV.Web.Models.SelectedLanguage
+
+<div class="lang-bar dropdown dropup" uib-dropdown is-open="status.isopen">
+    <a class="dropdown-toggle @Model.CssSlass" uib-dropdown-toggle href="javascript:void(0);">
+    </a>
+    <ul uib-dropdown-menu role="menu" aria-labelledby="single-button" class="dropdown-menu pull-right">
+        <li class="en">
+            @Html.ActionLink("English", "ChangeCulture", "Home",
+     new { lang = "en", returnUrl = this.Request.RawUrl }, null)
+        </li>
+        <li class="de">
+            @Html.ActionLink("Deutsch", "ChangeCulture", "Home",
+     new { lang = "de", returnUrl = this.Request.RawUrl }, null)
+        </li>
+    </ul>
+</div>

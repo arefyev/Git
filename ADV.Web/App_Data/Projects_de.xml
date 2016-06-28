@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<List>
+  <Project>
+    <Company>John company</Company>
+    <StartDate>02-02-2016</StartDate>
+    <EndDate></EndDate>
+    <Title>Project #1</Title>
+    <ShortDescription>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non magna eu leo placerat accumsan. Maecenas cursus augue id tincidunt sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </ShortDescription>
+    <Description>
+      &lt;div&gt;Itaque earum rerum hic tenetur a sapiente delectus:
+      &lt;/div&gt;
+      &lt;div&gt;- Lorem ipsum dolor sit amet, consectetur adipiscing elit;&lt;/div&gt;
+      &lt;div&gt;- Nulla non magna eu leo placerat accumsan;&lt;/div&gt;
+      &lt;div&gt;- Maecenas cursus augue id tincidunt sagittis;&lt;/div&gt;
+      &lt;div&gt;- Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium;&lt;/div&gt;
+      &lt;div&gt;- Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit;&lt;/div&gt;
+      &lt;div&gt;Ut enim ad minima veniam:&lt;/div&gt;
+      &lt;div&gt;The latest version has been successfully implemented by customers.&lt;/div&gt;
+    </Description>
+    <Logo>orel_128.png</Logo>
+    <Tags>
+      <Tag>ASP.NET MVC</Tag>
+      <Tag>C#</Tag>
+      <Tag>Javascript</Tag>
+      <Tag>PostreSQL</Tag>
+      <Tag>Mono</Tag>
+    </Tags>
+  </Project>
+  <Project>
+    <Company>John company</Company>
+    <StartDate>02-02-2015</StartDate>
+    <EndDate>02-02-2016</EndDate>
+    <Title>Project #2</Title>
+    <ShortDescription>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non magna eu leo placerat accumsan. Maecenas cursus augue id tincidunt sagittis.
+    </ShortDescription>
+    <Description>
+      &lt;div&gt;Itaque earum rerum hic tenetur a sapiente delectus:
+      &lt;/div&gt;
+      &lt;div&gt;- Lorem ipsum dolor sit amet, consectetur adipiscing elit;&lt;/div&gt;
+      &lt;div&gt;- Nulla non magna eu leo placerat accumsan;&lt;/div&gt;
+      &lt;div&gt;- Maecenas cursus augue id tincidunt sagittis;&lt;/div&gt;
+      &lt;div&gt;- Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium;&lt;/div&gt;
+      &lt;div&gt;- Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit;&lt;/div&gt;
+      &lt;div&gt;Ut enim ad minima veniam:&lt;/div&gt;
+      &lt;div&gt;The latest version has been successfully implemented by customers.&lt;/div&gt;
+    </Description>
+    <Logo>nb_128.png</Logo>
+    <Tags>
+      <Tag>ASP.NET MVC</Tag>
+      <Tag>C#</Tag>
+      <Tag>Javascript</Tag>
+      <Tag>PostreSQL</Tag>
+      <Tag>Mono</Tag>
+    </Tags>
+  </Project>
+  <Project>
+    <Company>John company</Company>
+    <StartDate>11-01-2016</StartDate>
+    <EndDate>20-05-2016</EndDate>
+    <Title>Project #3</Title>
+    <ShortDescription>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non magna eu leo placerat accumsan. Maecenas cursus augue id tincidunt sagittis.
+    </ShortDescription>
+    <Description>
+      &lt;div&gt;Itaque earum rerum hic tenetur a sapiente delectus:
+      &lt;/div&gt;
+      &lt;div&gt;- Lorem ipsum dolor sit amet, consectetur adipiscing elit;&lt;/div&gt;
+      &lt;div&gt;- Nulla non magna eu leo placerat accumsan;&lt;/div&gt;
+      &lt;div&gt;- Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium;&lt;/div&gt;
+      &lt;div&gt;- Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit;&lt;/div&gt;
+      &lt;div&gt;Ut enim ad minima veniam:&lt;/div&gt;
+      &lt;div&gt;The latest version has been successfully implemented by customers.&lt;/div&gt;
+    </Description>
+    <Logo>pg_128.png</Logo>
+    <Tags>
+      <Tag>ASP.NET MVC</Tag>
+      <Tag>Web Services</Tag>
+      <Tag>C#</Tag>
+      <Tag>Javascript</Tag>
+      <Tag>MySql</Tag>
+    </Tags>
+  </Project>
+  <Project>
+    <Company>Doe company</Company>
+    <StartDate>12-03-2014</StartDate>
+    <EndDate>22-05-2015</EndDate>
+    <Title>Project #4</Title>
+    <ShortDescription>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non magna eu leo placerat accumsan. Maecenas cursus augue id tincidunt sagittis.
+    </ShortDescription>
+    <Description>
+      &lt;div&gt;Itaque earum rerum hic tenetur a sapiente delectus:
+      &lt;/div&gt;
+      &lt;div&gt;- Lorem ipsum dolor sit amet, consectetur adipiscing elit;&lt;/div&gt;
+      &lt;div&gt;- Nulla non magna eu leo placerat accumsan;&lt;/div&gt;
+      &lt;div&gt;- Maecenas cursus augue id tincidunt sagittis;&lt;/div&gt;
+      &lt;div&gt;- Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium;&lt;/div&gt;
+      &lt;div&gt;- Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit;&lt;/div&gt;
+      &lt;div&gt;Ut enim ad minima veniam:&lt;/div&gt;
+      &lt;div&gt;The latest version has been successfully implemented by customers.&lt;/div&gt;
+    </Description>
+    <Logo>es_128.png</Logo>
+    <Tags>
+      <Tag>ASP.NET MVC</Tag>
+      <Tag>C#</Tag>
+      <Tag>AngularJs</Tag>
+      <Tag>MS SQL</Tag>
+    </Tags>
+  </Project>
+  <Project>
+    <Company>Doe company</Company>
+    <StartDate>11-01-2015</StartDate>
+    <EndDate>20-05-2015</EndDate>
+    <Title>Project #5</Title>
+    <ShortDescription>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non magna eu leo placerat accumsan. Maecenas cursus augue id tincidunt sagittis.
+    </ShortDescription>
+    <Description>
+      &lt;div&gt;Itaque earum rerum hic tenetur a sapiente delectus:
+      &lt;/div&gt;
+      &lt;div&gt;- Lorem ipsum dolor sit amet, consectetur adipiscing elit;&lt;/div&gt;
+      &lt;div&gt;- Nulla non magna eu leo placerat accumsan;&lt;/div&gt;
+      &lt;div&gt;- Maecenas cursus augue id tincidunt sagittis;&lt;/div&gt;
+      &lt;div&gt;- Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium;&lt;/div&gt;
+      &lt;div&gt;- Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit;&lt;/div&gt;
+      &lt;div&gt;Ut enim ad minima veniam:&lt;/div&gt;
+      &lt;div&gt;The latest version has been successfully implemented by customers.&lt;/div&gt;
+    </Description>
+    <Logo>fl_128.png</Logo>
+    <Tags>
+      <Tag>ASP.NET Web forms</Tag>
+      <Tag>C#</Tag>
+      <Tag>Javascript</Tag>
+      <Tag>MS SQL</Tag>
+    </Tags>
+  </Project>
+  <Project>
+    <Company></Company>
+    <StartDate></StartDate>
+    <EndDate></EndDate>
+    <Title></Title>
+    <Description></Description>
+    <Logo></Logo>
+  </Project>
+</List>

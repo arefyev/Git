@@ -1,0 +1,29 @@
+﻿
+<script type="text/ng-template" id="portfolio">
+    <h4>@Resources.Texts.Portfolio</h4>
+    <div class="delim"></div>
+    <div class="portfolio" data-ng-controller="portfolioController" data-ng-init="initData()">
+        <div class="loader" ng-hide="projectsLoaded"></div>
+        <ul class="tags filter">
+            <li class="tag" data-ng-repeat="tag in tags" filteredlink ng-click="elementInFilter(tag)">{{tag}}</li>
+        </ul>
+
+        <ul class="projects example-animate-container">
+            <li class="row project clearfix animate-repeat" data-ng-repeat="project in projects | filter:tagsFilter" ng-animate="'animate'">
+                <div class="col-md-2 col-sm-2 col-xs-2 logo">
+                    <img ng-src="/content/img/projects/{{project.logo}}" />
+                </div>
+                <div class="col-md-10 col-sm-10 col-xs-10 info">
+                    <div class="title" data-ng-bind="project.title"></div>
+                    <div class="tl">
+                        <span class="dates" data-ng-bind="project.period"></span>
+                        <span class="company" data-ng-bind="project.company"></span>
+                    </div>
+                    <div class="sdesc" data-ng-bind="project.shortDescription"></div>
+                    <div class="desc" ng-class="{true: 'show', false: 'hide'}[(project.showAdvInfo == undefined || !project.showAdvInfo)?false:true]" data-ng-bind-html="displaySafeHtml(project.description)"></div>
+                    <div class="adv" data-ng-hide="project.showAdvInfo" ng-click="displayMoreInfo(project)">@Resources.Texts.More</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</script>

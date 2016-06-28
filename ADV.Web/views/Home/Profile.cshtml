@@ -1,0 +1,78 @@
+﻿<script type="text/ng-template" id="profile">
+    <section class="profile">
+        <div class="row">
+            <div class="col-md-3">
+                <h4>@Resources.Texts.PersonalInfo</h4>
+                <div class="delim"></div>
+                <ul class="details clearfix">
+                    <li class="item clearfix">
+                        <span class="title">
+                            <i class="fa fa-user"></i><span>@Resources.Texts.Name</span>
+                        </span>
+                        <span class="value">
+                            @Resources.Texts.JD
+                        </span>
+                    </li>
+                    <li class="item clearfix">
+                        <span class="title">
+                            <i class="fa fa-calendar"></i><span>@Resources.Texts.BDate</span>
+                        </span>
+                        <span class="value">
+                            @Resources.Texts.BDateVal
+                        </span>
+                    </li>
+                    <li class="item clearfix">
+                        <span class="title">
+                            <i class="fa fa-map-marker"></i><span>@Resources.Texts.Address</span>
+                        </span>
+                        <span class="value">
+                            @Resources.Texts.AddressVal
+                        </span>
+                    </li>
+                    <li class="item clearfix">
+                        <span class="title">
+                            <i class="fa fa-phone"></i><span>@Resources.Texts.Phone</span>
+                        </span>
+                        <span class="value">
+                            +7-111-111-1111
+                        </span>
+                    </li>
+                    <li class="item clearfix">
+                        <span class="title">
+                            <i class="fa fa-envelope"></i><span>@Resources.Texts.Email</span>
+                        </span>
+                        <span class="value">
+                            johndoe@johndoe.com
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-9">
+                <h4>@Resources.Texts.About</h4>
+                <div class="delim"></div>
+                <p>
+                    @Html.Raw(Resources.Texts.AboutMyself)
+                </p>
+                <h4>@Resources.Texts.Skills</h4>
+                <div class="delim-sub"></div>
+                <ul class="skills">
+                    <li>
+                        @Resources.Texts.Skills_Net
+                    </li>
+                    <li>
+                        @Resources.Texts.Skills_Web
+                    </li>
+                    <li>
+                        @Resources.Texts.Skills_DB
+                    </li>
+                    <li>
+                        @Resources.Texts.Skills_DevEnv
+                    </li>
+                    <li>
+                        @Resources.Texts.Skills_Version
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</script>

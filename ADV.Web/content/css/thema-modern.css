@@ -1,0 +1,27 @@
+body {
+    background: url('../img/bg/city.jpg');
+}
+
+.flexslider {
+    opacity: 0.99;
+}
+
+header .bg
+{
+    opacity:0.9;
+    background: url(../img/profile-bg.jpg) repeat-x; 
+    position:absolute;
+    top:0;left:0;right:0;bottom:0;
+}
+
+footer {
+    opacity: 0.9;
+}
+
+@media only screen and (max-width: 480px) {
+
+header .bg{
+    background-position-y: -50px !important;
+}
+
+}

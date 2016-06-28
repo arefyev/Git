@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@String.Format("{0} - {1}", @Resources.Texts.JD, Resources.Texts.SoftwareDeveloperTitle)</title>
+    <!-- Google Webfonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700,800,700italic,600italic' rel='stylesheet' type='text/css'>
+    <!-- Theme Styles CSS-->
+    @Styles.Render("~/bundles/css")
+</head>
+<body ng-app="iadv">
+    <!-- LOADING MASK -->
+    <div class="container-pre-loader" id="site-loader">
+        <div class="pre-loader">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+        </div>
+    </div>
+    <!-- MAIN CONTENT -->
+    <div class="scroller">
+        <div class="main-content" data-ng-controller="homeController">
+            <div class="container no-padding">
+                @Html.Partial("Header")
+                <!-- NAVIGATION -->
+                @Html.Partial("Navigation")
+                <!-- BODY -->
+                @RenderBody()
+                <!-- FOOTER -->
+                @Html.Partial("Footer")
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript -->
+    @Scripts.Render("~/bundles/scripts")
+    @RenderSection("scripts", required: false)
+    <script>
+         // Google analytics
+    </script>
+</body>
+</html>
